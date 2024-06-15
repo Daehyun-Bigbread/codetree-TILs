@@ -10,4 +10,4 @@ for i in range (n, 101):
     elif i >= 60:
         print("D", end=" ")
     else:
-        print("E", end=" ")
+        print("F", end=" ")
