@@ -7,4 +7,4 @@ b = int(arr[1])
 if a > b:
     print(f"{a*b}")
 else:
-    print(f"{b%a}")
+    print(f"{a%b}")
