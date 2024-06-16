@@ -1,5 +1,4 @@
-a = int(input())
-b = int(input())
-c = a + b
+a, b = map(int, input().split())
+c = int(input())
 
 print(f"{a} {b} {c}")
