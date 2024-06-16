@@ -1,4 +1,3 @@
-a = 7
-b = 23
-c = a + b
-print(" %d + %d = %d" % (a,b,c))
+a, b, c = 7, 23, 30
+
+print(f"{a} + {b} = {c}")
