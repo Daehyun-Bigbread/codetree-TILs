@@ -1,2 +1,6 @@
 a = input()
-print(a.split(":"))
+arr = a.split(":")
+h = int(arr[0])
+m = int(arr[1])
+
+print(f"{h}:{m}")
