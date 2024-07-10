@@ -1,0 +1,6 @@
+arr = input().split()
+w = int(arr[0])
+h = int(arr[1])
+print(f"{w+8}")
+print(f"{h*3}")
+print(f"{(w+8)*(h*3)}")
