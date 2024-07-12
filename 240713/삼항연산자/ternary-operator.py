@@ -1,6 +1,2 @@
 x = int(input())
-
-if x = 100:
-    print("pass")
-else:
-    print("failure")
+print("pass" if x == 100 else "failure")
