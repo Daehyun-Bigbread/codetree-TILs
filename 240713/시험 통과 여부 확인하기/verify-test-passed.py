@@ -3,4 +3,4 @@ n = int(input())
 if n >= 80:
     print("pass")
 else:
-    print(f"{n-80} more score")
+    print(f"{80-n} more score")
