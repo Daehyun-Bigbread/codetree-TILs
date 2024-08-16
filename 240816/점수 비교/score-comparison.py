@@ -1,13 +1,16 @@
-arr1 = input().split()
-arr2 = input().split()
+# 변수 선언, 입력
+inp = input()
+arr = inp.split()
+a_math = int(arr[0])
+a_eng = int(arr[1])
 
-A1 = int(arr1[0])
-A2 = int(arr1[0])
+inp = input()
+arr = inp.split()
+b_math = int(arr[0])
+b_eng = int(arr[1])
 
-B1 = int(arr2[0])
-B2 = int(arr2[1])
-
-if A1 > B1 and B1 > B2:
-    print(1)
+# 출력
+if a_math > b_math and a_eng > b_eng:
+	print(1)
 else:
-    print(0)
+	print(0)
