@@ -1,15 +1,13 @@
-arr = input().split()
-
-a = int(arr[0])
-b = int(arr[1])
+a = int(input())
+b = int(input())
 
 if a == 0:
     if b <= 19:
-        print("Boy")
+        print("BOY")
     else:
-        print("Man")
+        print("MAN")
 else:
     if b <= 19:
-        print("Girl")
+        print("GIRL")
     else:
-        print("Woman")
+        print("WOMAN")
