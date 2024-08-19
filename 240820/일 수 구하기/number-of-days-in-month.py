@@ -8,4 +8,4 @@ elif n % 2 == 0:
     elif n >= 8 and n <= 12:
         print(30)
     else:
-        print(30)
+        print(31)
