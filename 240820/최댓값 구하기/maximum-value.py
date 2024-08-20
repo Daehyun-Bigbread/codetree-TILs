@@ -1,15 +1,12 @@
 arr = input().split()
+a, b, c = int(arr[0]), int(arr[1]), int(arr[2])
 
-a = int(arr[0])
-b = int(arr[1])
-c = int(arr[2])
-
-if a > b:
+if a > b: # a > b
     if a > c:
         print(a)
     else:
         print(c)
-else:
+else: # a < b
     if b > c:
         print(b)
     else:
