@@ -5,4 +5,5 @@ if n % 2 == 0 and n < 9:
 else:
     if n % 2 == 0 and n >= 9:
         print(31)
-print(31)
+    else:
+        print(30)
