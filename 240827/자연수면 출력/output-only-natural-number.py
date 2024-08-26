@@ -3,6 +3,7 @@ a, b = int(arr[0]), int(arr[1])
 
 if isinstance(a, int):
     for i in range(1, b+1):
-        print(a,end="")
+        print(a, end="")
 else:
-    print(0)
+    if a <= 0:
+        print(0)
